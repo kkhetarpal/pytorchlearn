@@ -113,8 +113,6 @@ print(net.conv1.bias.grad)
 # To enable this, we built a small package: ``torch.optim`` that
 # implements all these methods. Using it is very simple:
 
-
-
 import torch.optim as optim
 
 optimizer = optim.SGD(net.parameters(), lr=0.01)
